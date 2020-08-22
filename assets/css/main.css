@@ -88,6 +88,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  scroll-behavior: smooth;
 }
 
 article,
@@ -225,6 +226,9 @@ h6 {
   text-transform: uppercase;
   line-height: 1.75em;
 }
+.venue h1 {
+  margin-left: 20%;
+}
 
 h1 a,
 h2 a,
@@ -315,7 +319,7 @@ header p {
 }
 
 footer {
-  margin-top: 1em;
+  margin-top: 10%;
 }
 
 br.clear {
@@ -328,6 +332,7 @@ br.clear {
   margin: 0 auto;
   max-width: 100%;
   width: 1140px;
+  height: auto;
 }
 
 @media screen and (max-width: 1680px) {
